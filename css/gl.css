@@ -1,0 +1,515 @@
+﻿/*
+ * gl.css v0.2	-	pdweek
+ */
+body {
+	font-family: sans-serif;
+	font-size: 1em;
+	background-color: #005A8A;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+div.formbox {
+	width: 720px; 
+	background-color: #ddd; 
+	border: 1px dotted #333; 
+	padding: 10px; 
+}
+
+div.formbox2 {
+	width: 800px; 
+	background-color: #ddd; 
+	border: 1px dotted #333; 
+	padding: 10px;	
+	-moz-border-radius: 8px;
+	border-radius: 8px;		
+}
+
+div.main {
+	width: 1024px; 
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto; 
+	margin-top: 0;
+	padding: 30px;
+	padding-top: 0;
+	border: 1px solid #000;
+	border-top: none;
+	background-color: white;
+	background-image: url('../img/fotc2013.gif');
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header {
+	margin-top:0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	padding: 10px;
+	padding-top: 0;
+}
+
+br {
+	clear: left;
+}
+
+blockquote {
+	padding: 8px;
+	background-color: #ccc;
+	font-size: 0.9em;
+}
+
+a {
+	text-decoration: none;
+	color: #00f;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.listitalics {
+	font-style: italic;
+}
+
+span.sectionTitle, span.workshopTitle {
+	font-weight: bold;
+	font-size: 1.3em;
+	color: black;
+}
+
+span.workshopTitle, .reportTitle {
+	color: #005A8A;
+	font-size: 1.1em;
+}
+
+span.regboxtitle {
+	font-size: 1.3em;
+}
+
+p.warning {
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: red;
+}
+
+h1 {
+	color: #005A8A;
+}
+
+span.version {
+	float: right;
+	font-size: 0.7em;
+	font-style: italic;
+	color: #005A8A;
+}
+
+nav.dashboardMenu {
+	text-align: center;
+	background-color: #ddd;
+	border: 1px solid black;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+.rounded-corner {
+	border-radius: 18px;
+}
+
+.input-text {
+	color: #000;
+}
+
+.input-text:active, .input-text:hover, .input-text:focus {
+	font-weight: bold;
+	color: #000;
+}
+
+.borderall {
+	border: solid 1px black; padding: 8px;
+	-moz-border-radius-topright: 8px;
+	border-top-right-radius: 8px;		
+	-moz-border-radius-topleft: 8px;
+	border-top-left-radius: 8px;
+	margin-right: 20px;
+}
+
+.bordernotop {
+	border: solid 1px black;
+	border-top: none;
+	padding: 8px;
+	margin-right: 20px;
+}
+
+.borderend {
+	margin-bottom: 8px;
+	border: solid 1px black;
+	border-top: none;
+	padding: 8px;
+	-moz-border-radius-bottomright: 8px;
+	border-bottom-right-radius: 8px;		
+	-moz-border-radius-bottomleft: 8px;
+	border-bottom-left-radius: 8px;	
+	margin-right: 20px;		
+}
+
+.wselected {
+	background-color: #f8da4e;
+	margin-right: 20px;
+}
+
+.wfull {
+	background-color: #bbb;
+	margin-right: 20px;
+}
+
+.regbox {
+	border: dotted 1px black;
+	background-color: white;
+	padding: 12px;
+	margin-bottom: 12px;
+	padding-top: 0;
+	-moz-border-radius: 8px;
+	border-radius: 8px;		
+}
+
+.subordinateRegbox {
+	border: dotted 1px black;
+	background-color: white;
+	padding: 12px;
+	margin-top: 0px;
+	margin-bottom: 12px;
+	padding-top: 0;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	border-top: dotted 1px white;
+	-moz-border-radius-topright: 0px;
+	border-top-right-radius: 0px;		
+	-moz-border-radius-topleft: 0px;
+	border-top-left-radius: 0px;
+}
+
+.regboxtitle {
+	display: block;
+	background-color: #005A8A;
+	color: white;
+	padding: 12px;
+	margin-top: 0;
+	-moz-border-radius-bottomright: 8px;
+	border-bottom-right-radius: 8px;		
+	-moz-border-radius-bottomleft: 8px;
+	border-bottom-left-radius: 8px;			
+}
+
+/**
+ * Custom accordion style (Better performance than JQuery UI theme
+ * when rendered with IE's Trident engine).
+ */
+#workshopAccordion h3 {
+	padding-top: 8px;
+	padding-bottom: 2px;
+	padding-left: 10px;
+	height: 35px;
+	cursor: pointer;
+	border: 1px solid black;
+	border-radius: 9px;
+	background-color: #ddd;
+	/* Background gradients */
+
+		/* WebKit ( Safari, Chrome, Opera v13+ ) */
+		background: -webkit-gradient(linear, left top, left bottom, from(#ddd), to(#fff));
+
+		/* Firefox */
+		background: -moz-linear-gradient(top,  #ddd,  #fff);
+		
+		/* IE */
+		background-image: linear-gradient(to bottom, #ddd, #fff);
+}
+
+#workshopAccordion h3:hover {
+	/* Background gradients */
+
+		/* WebKit ( Safari, Chrome, Opera v13+ ) */
+		background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ddd));
+
+		/* Firefox */
+		background: -moz-linear-gradient(top,  #fff,  #ddd);
+		
+		/* IE */
+		background-image: linear-gradient(to bottom, #fff, #ddd);
+}
+
+#workshopAccordion h3.ui-state-active {
+	border: 1px dotted black;
+	margin-bottom: 0px;
+	border-bottom: 0px;
+	-moz-border-radius-bottomright: 0px;
+	border-bottom-right-radius: 0px;		
+	-moz-border-radius-bottomleft: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+p.accordionIndent {
+	padding-left: 25px;
+}
+
+/**
+ * Custom dialog style (Better performance than JQuery UI theme
+ * when rendered with IE's Trident engine).
+ */
+.ui-dialog {
+	width: 300px;
+	border: dotted 1px black;
+	border-radius: 15px 15px;
+	background-color: #fff;
+}
+
+.ui-dialog-titlebar {
+	cursor: move;
+	border: 0px;
+	border-radius: 15px 15px 0px 0px;
+	padding-left: 8px;
+	background-color: #005A8A;
+	color: #fff;
+	font-weight: bold;
+}
+
+.ui-dialog-titlebar-close {
+	float: right;
+	border: 0px;
+	border-bottom: 0px;
+	border-radius: 0px 15px 0px 0px;
+	background-color: #ddd;
+}
+
+.ui-dialog-content {
+	padding-left: 8px;
+}
+
+.ui-state-error {
+	padding-left: 25px;
+	border: 1px solid #cd0a0a;
+	border-radius: 8px;
+	background: #fef1ec;
+	color: #cd0a0a;
+}
+
+.ui-state-error a {
+	color: #cd0a0a;
+}
+
+.ui-state-info {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 25px;
+	border: 1px solid #fcd113;
+	border-radius: 8px;
+	background: #f8da4e;
+	color: #915608;
+}
+
+.ui-state-info a {
+	color: #915608;
+}
+
+.nameTagHeader {
+	font-weight: bold;
+	margin-bottom: 35px;
+}
+
+.nameTag {
+	font-weight: normal;
+	padding: 10px;
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 1px solid black;
+}
+
+.nameTagTitles {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.upper-space {
+	margin-top: 20px;
+}
+
+.lower-space {
+	margin-bottom: 10px;
+}
+
+.left-margin {
+	margin-left: 20px;
+}
+
+.block {
+	display: block;
+}
+
+.center {
+	text-align: center;
+}
+
+.text-title-nosize {
+	color: #005A8A;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+label, select, input[type=*] {
+	float: left;
+	text-align: right;
+}
+
+.textinput {
+	width: 300px;
+}
+
+.regControl, .regControlTop {
+	display: block;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.regControlTop {
+	margin-top: 0px;
+}
+
+.regLabelContainer {
+	font-size: 1em;
+	line-height: 1.2em;
+	padding: 0px;
+	margin: 0px;
+	text-align: left;
+	width: 28%;
+	float: left;
+}
+
+.regControlContainer {
+	font-size: 1em;
+	line-height: 1.2em;
+	padding: 0px;
+	margin: 0px;
+	text-align: left;
+	width: 72%;
+	float: right;
+}
+
+.regOverviewLabelContainer {
+	font-size: 0.90em;
+	line-height: 0.90em;
+	padding: 0px;
+	margin: 0px;
+	text-align: left;
+	width: 30%;
+	float: left;
+}
+
+.regOverviewControlContainer {
+	font-size: 0.90em;
+	line-height: 0.90em;
+	padding: 0px;
+	margin: 0px;
+	text-align: left;
+	width: 70%;
+	float: right;
+}
+
+.contactLabelContainer {
+	font-size: 1.08em;
+	line-height: 1.15em;
+	padding: 0px;
+	margin: 0px;
+	text-align: left;
+	width: 28%;
+	float: left;
+}
+
+.contactControlContainer {
+	font-size: 1em;
+	line-height: 0.90em;
+	padding: 0px;
+	margin: 0px;
+	text-align: left;
+	width: 72%;
+	float: right;
+}
+
+.button-green, .button-green:hover, .button-green:active {
+	padding: 4px;
+	background-color: #7e7;
+	border: dotted 1px black;
+	font-size: 1.1em;
+	font-weight: bold;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	text-decoration: none;
+}
+
+.button-green:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.button-green:active {
+	cursor: pointer;
+	font-weight: bold;
+	background-color: #5e5;
+}
+
+.button-large {
+	font-size: 2em;
+}
+
+.text-green {
+	color: #5e5;
+}
+
+.text-normal {
+	color: black;
+}
+
+.clear {
+	clear: both;
+}
+
+element.style {
+  position: absolute;
+  top: 32px;
+  left: 35px;
+  z-index: 1;
+  display: block;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+  border-bottom-right-radius: 4px;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl {
+  border-bottom-left-radius: 4px;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+  border-top-right-radius: 4px;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl {
+  border-top-left-radius: 4px;
+}
+.ui-widget-content {
+  border: 1px solid #aaaaaa;
+  background-color: #ccc;
+  /*background: #ffffff url("images/ui-bg_flat_75_ffffff_40x100.png") 50% 50% repeat-x;*/
+  color: #222222;
+}
+.ui-widget {
+  font-family: Verdana,Arial,sans-serif;
+  font-size: 1.1em;
+}
