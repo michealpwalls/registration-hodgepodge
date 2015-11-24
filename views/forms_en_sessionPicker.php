@@ -18,6 +18,14 @@
     along with International Student Registration System.
     If not, see <http://www.gnu.org/licenses/>.
  */
+
+if ($bln_oneSessionOnDayOne) {
+?>
+  <div class="ui-state-info">
+    <strong>Please note</strong> that all students are automatically registered in the 1st session of day 1.
+  </div><br>
+<?php
+}
 ?>
             <form action="<?=$str_appURL;?>admin/index.php" method="get">
                 <input type="hidden" name="action" value="edit-session">

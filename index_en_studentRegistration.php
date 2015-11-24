@@ -108,7 +108,11 @@ if (empty($studentToken)) {
            
             // Get the student group and determine appropriate session id.
             $studentGroup = getStudentGroup($dbConnectionObject, $studentId);
-            $targetSession = ($studentGroup == 'a' ? 1 : 11);
+            if( $bln_oneSessionOnDayOne === false ) {
+                $targetSession = ($studentGroup == 'a' ? 1 : 11);
+            } else {
+                $targetSession = 1;
+            }
 
             // Make sure they're not already registered in the session.
             if (!isRegisteredInSession($dbConnectionObject, $targetSession, $studentId)) {

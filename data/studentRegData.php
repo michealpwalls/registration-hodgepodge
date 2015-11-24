@@ -19,6 +19,7 @@
     If not, see <http://www.gnu.org/licenses/>.
  */
 
+$bln_oneSessionOnDayOne = (bool) true;
 $str_exampleStudentId = (string) '200212345';
 $str_exampleStudentToken = (string) 'QRWEJSWoaDemA7FtdsVV42cc';
 

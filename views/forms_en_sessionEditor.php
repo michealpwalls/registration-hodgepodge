@@ -27,6 +27,14 @@ $passportYesChecker = ($ary_sessionFields['requirePassport_sessions'] == "yes" ?
 $passportNoChecker = ($ary_sessionFields['requirePassport_sessions'] == "no" ? "checked" : "");
 $dayOneSelector = ($ary_sessionFields['day_sessions'] == 1 ? "selected" : "");
 $dayTwoSelector = ($ary_sessionFields['day_sessions'] == 2 ? "selected" : "");
+
+if ($bln_oneSessionOnDayOne) {
+?>
+  <div class="ui-state-info">
+    <strong>Please note</strong> that all students are automatically registered in the 1st session of day 1.
+  </div><br>
+<?php
+}
 ?>
             <form action="<?=$formTarget;?>" method="post">
                 <fieldset class="regbox">
