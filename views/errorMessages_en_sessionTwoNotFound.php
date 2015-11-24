@@ -17,7 +17,7 @@
     You should have received a copy of the GNU General Public License
     along with International Student Registration System.
     If not, see <http://www.gnu.org/licenses/>.
-*/
+ */
 
 $errorMessage = "The session selected for day 2 was not found. <br>Please go"
     . " back to the <a href=\"index.php?stkn={$studentToken}&stage=2\">session"

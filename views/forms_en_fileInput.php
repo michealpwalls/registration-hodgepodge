@@ -17,7 +17,7 @@
     You should have received a copy of the GNU General Public License
     along with International Student Registration System.
     If not, see <http://www.gnu.org/licenses/>.
-*/
+ */
 
 echo "<form class=\"upper-space left-margin\" action=\"index.php?action=setup&setupAction=import-{$str_targetDb}&admtkn={$adminTokenInput}\" method=\"post\" enctype=\"multipart/form-data\">\n
         <fieldset><legend>File Details</legend>\n

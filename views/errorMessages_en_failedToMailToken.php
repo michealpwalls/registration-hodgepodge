@@ -17,7 +17,7 @@
     You should have received a copy of the GNU General Public License
     along with International Student Registration System.
     If not, see <http://www.gnu.org/licenses/>.
-*/
+ */
 
 $errorMessage = "We're sorry but the mail failed to send. The mail contains a"
     . " token that is used to verify your identity. Without it, you cannot"

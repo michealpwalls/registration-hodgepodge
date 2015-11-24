@@ -17,7 +17,7 @@
     You should have received a copy of the GNU General Public License
     along with International Student Registration System.
     If not, see <http://www.gnu.org/licenses/>.
-*/
+ */
 
 $errorMessage = "You did not specify an academic program.<br> Please go back to the"
     . " <a href=\"{$str_appURL}index.php\">Registration Page</a> and try again."

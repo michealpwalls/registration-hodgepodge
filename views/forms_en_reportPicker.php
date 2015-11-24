@@ -17,7 +17,7 @@
     You should have received a copy of the GNU General Public License
     along with International Student Registration System.
     If not, see <http://www.gnu.org/licenses/>.
-*/
+ */
 ?>
 <form method="get" action="<?=$str_appURL;?>admin/index.php">
     <label for="action">Choose a report to run:</label>

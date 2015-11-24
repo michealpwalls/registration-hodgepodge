@@ -17,7 +17,7 @@
     You should have received a copy of the GNU General Public License
     along with International Student Registration System.
     If not, see <http://www.gnu.org/licenses/>.
-*/
+ */
 
 $errorMessage = "You did not specify a student token or the token specified was"
     . " not valid. A valid student token will look something like: <em>"

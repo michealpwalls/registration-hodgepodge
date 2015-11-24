@@ -17,7 +17,7 @@
     You should have received a copy of the GNU General Public License
     along with International Student Registration System.
     If not, see <http://www.gnu.org/licenses/>.
-*/
+ */
 
 $errorMessage = "This is a setup component and cannot "
     . "be used directly. You must use it from the admin Dashboard.<br><br>";

@@ -17,7 +17,7 @@
     You should have received a copy of the GNU General Public License
     along with International Student Registration System.
     If not, see <http://www.gnu.org/licenses/>.
-*/
+ */
 
 echo "<h3>Setup the {$str_appName} System.</h3><br>\n";
 echoToConsole( "setupAction was not set, displaying form", true );

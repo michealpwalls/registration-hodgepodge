@@ -17,7 +17,7 @@
     You should have received a copy of the GNU General Public License
     along with International Student Registration System.
     If not, see <http://www.gnu.org/licenses/>.
-*/
+ */
 
 $formTarget = (string) "{$str_appURL}admin/index.php?action=edit-session&admtkn={$adminTokenInput}";
 

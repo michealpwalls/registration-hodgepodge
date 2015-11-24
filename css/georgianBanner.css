@@ -17,14 +17,14 @@
     along with International Student Registration System.
     If not, see <http://www.gnu.org/licenses/>.
  */
-
+ 
 /*
  * Background: #fff
  * Light-gray: #e5e0d5 (Old: #e3ddd3) (Background)
  * Dark-gray:  #444
  * Green:      #64a70b
  * Blue:       #004b87
-**/
+ */
 body {
     font-family: 'Lato', 'Avenir', 'sans-serif';
     font-size: 1em;

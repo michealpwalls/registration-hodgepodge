@@ -17,7 +17,7 @@
     You should have received a copy of the GNU General Public License
     along with International Student Registration System.
     If not, see <http://www.gnu.org/licenses/>.
-*/
+ */
 ?>
             <h3>Registration information</h3>
             <p>To begin the registration process, please provide your Georgian ID and name:</p>

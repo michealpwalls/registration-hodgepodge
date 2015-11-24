@@ -17,7 +17,7 @@
     You should have received a copy of the GNU General Public License
     along with International Student Registration System.
     If not, see <http://www.gnu.org/licenses/>.
-*/
+ */
 
 $errorTitle = "Session has reached capacity";
 $errorMessage = "We're sorry, but the session has reached maximum capacity."

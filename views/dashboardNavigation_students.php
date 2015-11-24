@@ -17,7 +17,7 @@
     You should have received a copy of the GNU General Public License
     along with International Student Registration System.
     If not, see <http://www.gnu.org/licenses/>.
-*/
+ */
 
 echo "<a href=\"{$str_appURL}admin/?admtkn={$adminTokenInput}\">Reports</a>&nbsp;<strong>|</strong>&nbsp;<a href=\"{$str_appURL}admin/index.php?action=edit-session&admtkn={$adminTokenInput}\">Edit Sessions</a>"
 ?>

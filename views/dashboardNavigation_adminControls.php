@@ -17,7 +17,7 @@
     You should have received a copy of the GNU General Public License
     along with International Student Registration System.
     If not, see <http://www.gnu.org/licenses/>.
-*/
+ */
 
 echo "&nbsp;<strong>|</strong>&nbsp;<a href=\"index.php?action=setup&admtkn={$adminTokenInput}\">Setup application environment</a>";
 ?>

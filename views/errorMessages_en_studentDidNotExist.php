@@ -17,7 +17,7 @@
     You should have received a copy of the GNU General Public License
     along with International Student Registration System.
     If not, see <http://www.gnu.org/licenses/>.
-*/
+ */
 
 $errorMessage = "That student was not found in our system. Please verify that"
     . " you have entered the details correctly.<br><br>If you still receive this"

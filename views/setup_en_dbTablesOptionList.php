@@ -17,7 +17,7 @@
     You should have received a copy of the GNU General Public License
     along with International Student Registration System.
     If not, see <http://www.gnu.org/licenses/>.
-*/
+ */
 
 if($bln_isStudentReg) {
     echo "<option value=\"students\">Students</option>\n

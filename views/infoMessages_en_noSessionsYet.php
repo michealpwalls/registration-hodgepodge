@@ -17,7 +17,7 @@
     You should have received a copy of the GNU General Public License
     along with International Student Registration System.
     If not, see <http://www.gnu.org/licenses/>.
-*/
+ */
 
 $infoTitle = "No sessions selected";
 $infoMessage = "You have not chosen any sessions yet, so there is nothing"
